@@ -1,0 +1,33 @@
+.recipe-email {
+	size: .3em;
+	border-top: #d3d3d3 solid 1px;
+	border-bottom: #d3d3d3 solid 1px;
+	padding: .6em; 
+	text-align: center;
+	width: 100%;
+}
+
+.menu-nav-bar ul li{
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+	color: DarkGreen;
+	padding: 2%;
+	font-size: 1em;
+}
+
+.menu-nav-bar ul{
+	width: 100%;
+	text-align: center;
+	font-family: 'Syncopate', serif;
+}
+
+.hidden div {
+	display: none;
+	width: 100%;
+}
+
+.center {
+	text-align: center;
+	width: 100%;
+}

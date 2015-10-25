@@ -9,6 +9,8 @@
 h1{
 	text-align: center;
 	border-bottom: #d3d3d3 1px solid;
+	font-family: 'Kaushan Script', serif;
+	font-size: 4em;
 }
 
 header {
@@ -20,6 +22,7 @@ header {
 .menu-bar {
 	width: 100%;
 	text-align: center;
+	font-family: 'Syncopate', serif;
 }
 
 .menu-bar ul li {
@@ -27,8 +30,57 @@ header {
 	list-style-type: none;
 	padding-left: 2.5%;
 	padding-right: 2.5%;
+	font-size: 1.2em;
 }
 
-.menu-bar a {
+a {
 	color: DarkGreen;
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Syncopate', serif;
+}
+
+/*both menu bars*/
+ul {
+	padding-left: 0px;
+}
+
+/*schedule*/
+table {
+	width: 100%;
+	padding: 5%;
+}
+
+th {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+th, td {
+	border: #d3d3d3 solid 1px;
+	text-align: center;
+	padding: 1em;
+}
+
+.date-schedule {
+	font-weight: bold;
+}
+
+/* main drinking pic*/
+.drinking-pic{
+	width: 50%;
+	float: left;
+	padding-left:25%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: center;
+	height: auto;
+}
+
+.paragraph-info {
+	padding-right: 5%;
+	padding-left: 5%;
+	border-bottom: #d3d3d3 1px solid;
 }
